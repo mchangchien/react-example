@@ -1,18 +1,4 @@
 {
-    "routes": [
-        {
-            "route": "/admin/*",
-            "allowedRoles": [ "admin" ]
-        },
-        {
-          "route": "/.auth/*",
-          "allowedRoles": ["anonymous"]
-        },
-        {
-            "route": "/authenticated/*",
-            "allowedRoles": [ "authenticated" ]
-        }
-    ],
     "auth": {
         "rolesSource": "/api/GetRoles",
         "identityProviders": {
