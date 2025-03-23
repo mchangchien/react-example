@@ -5,6 +5,10 @@
             "allowedRoles": [ "admin" ]
         },
         {
+          "route": "/.auth/*",
+          "allowedRoles": ["anonymous"]
+        },
+        {
             "route": "/authenticated/*",
             "allowedRoles": [ "authenticated" ]
         }
